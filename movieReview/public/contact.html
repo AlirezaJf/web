@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.rtl.min.css" integrity="sha384-4dNpRvNX0c/TdYEbYup8qbjvjaMrgUPh+g4I03CnNtANuv+VAvPL6LqdwzZKV38G" crossorigin="anonymous">
+    <link href="../public/assets/css/style.css" rel="stylesheet">
+    <title>پلتفرم تحلیل فیلم | ارتباط با ما</title>
+</head>
+<body class="container bodyback">
+<header></header>
+<main>
+    <div class="page-content">
+        <div class="form-v5-content">
+            <form class="form-detail" action="register.php" method="post">
+                <h2>تماس با ما</h2>
+                <div class="form-row">
+                    <label for="email">ایمیل:</label>
+                    <input type="email" name="email" id="email" class="input-text"  required>
+
+                </div>
+                <div class="form-row">
+                    <label for="sub_message">عنوان پیام:</label>
+                    <input type="text" name="sub_message" id="sub_message" class="input-text"  required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+
+                </div>
+                <div class="form-row">
+                    <label for="message">متن پیام:</label>
+                    <textarea type="text" name="message" id="message" class="input-text" required></textarea>
+                </div>
+                <div class="form-row-last">
+                    <input type="submit" name="submit" class="register" value="ارسال">
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+<aside></aside>
+<footer></footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+</body>
+</html>
